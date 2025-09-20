@@ -1,5 +1,4 @@
 // src/app/contact-us/page.tsx
-import Image from 'next/image';
 import { MapPin, Phone, Mail } from 'lucide-react';
 import type { Metadata } from 'next';
 

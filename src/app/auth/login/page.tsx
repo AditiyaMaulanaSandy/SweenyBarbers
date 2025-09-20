@@ -12,12 +12,6 @@ export default function LoginPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  // Simulated user credentials (replace with real API in production)
-  const validUser = {
-    email: 'user@example.com',
-    password: 'password123',
-  };
-
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
@@ -84,7 +78,7 @@ export default function LoginPage() {
           </button>
         </form>
         <p className="text-sm text-brand-text-secondary text-center mt-6">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <Link href="/auth/register" className="text-brand-primary hover:underline font-medium">
             Register here
           </Link>

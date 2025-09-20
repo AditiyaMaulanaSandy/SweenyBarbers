@@ -46,7 +46,7 @@ export default function AboutUsPage() {
       <section className="my-16 py-10 bg-brand-surface rounded-lg shadow-md">
         <blockquote className="text-center max-w-3xl mx-auto">
           <p className="text-2xl md:text-3xl italic text-brand-text mb-4">
-            "Step into style at Sweeney Barbers, where every cut is a craft, and every shave is a statement."
+            &quot;Step into style at Sweeney Barbers, where every cut is a craft, and every shave is a statement.&quot;
           </p>
           <cite className="block text-lg font-semibold text-brand-primary not-italic">
             - James Carter

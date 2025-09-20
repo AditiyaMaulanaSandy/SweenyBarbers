@@ -26,7 +26,7 @@ export default function TestimonialCard({ testimonial }: TestimonialCardProps) {
         )}
         <h4 className="text-lg font-semibold text-brand-primary">{testimonial.name}</h4>
       </div>
-      <p className="text-brand-text-secondary italic">"{testimonial.quote}"</p>
+      <p className="text-brand-text-secondary italic">&quot;{testimonial.quote}&quot;</p>
     </div>
   );
 }
